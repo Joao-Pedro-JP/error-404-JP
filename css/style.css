@@ -1,0 +1,239 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  padding: 40px;
+  display: block;
+  margin: auto;
+}
+.btn1 {
+  text-align: center;
+}
+.text {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  color: #fff ;
+}
+
+
+.error-text {
+  text-align: center;
+  padding: 20px;
+  font-family: Cursive;
+  border-radius: 10px;
+  color: #fff;
+}
+.error {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 15px;
+  background: #000000;
+  color: #fff;
+  border-radius: 10px;
+}
+
+
+
+
+/* author: https://uiverse.io/javierBarroso/ancient-badger-33
+ */
+
+ body {
+background-color:#316ff6;
+}
+
+img{
+   display: block;
+   margin: auto;
+   border-radius: 20px;
+}
+
+.social-login-icons-body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: auto;
+   overflow: hidden;
+   margin: auto;
+   padding: o;
+   width: 25%;
+}
+.social-login-icons {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   -webkit-box-reflect: below 5px linear-gradient(transparent, #00000055);
+ }
+ .social-login-icons svg {
+   width: 40px;
+ }
+ 
+ .social-icon-1,
+ .social-icon-1-1,
+ .social-icon-2,
+ .social-icon-2-2,
+ .social-icon-3,
+ .social-icon-3-3,
+ .social-icon-4,
+ .social-icon-4-4 {
+   width: 50px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50px;
+   margin: 20px 0 0px 0;
+ }
+ 
+ .icon svg {
+   fill: #111;
+ }
+ 
+ .socialcontainer {
+   height: 80px;
+   overflow: hidden;
+ }
+ .social-icon-1 {
+   transition-duration: 0.4s;
+   background-color: rgb(0, 0, 0);
+   transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+ }
+ .social-icon-1 svg,
+ .social-icon-2 svg,
+ .social-icon-3 svg,
+ .social-icon-4 svg {
+   opacity: 0;
+   transition-duration: 0.5s;
+   transition-delay: 0.2s;
+ }
+ .social-icon-1-1 {
+   transition-duration: 0.4s;
+   background-color: rgb(0, 0, 0, 0);
+ }
+ .socialcontainer:hover .social-icon-1 {
+   transform: translateY(-70px);
+ }
+ .socialcontainer:hover .social-icon-1 svg,
+ .socialcontainer:hover .social-icon-2 svg,
+ .socialcontainer:hover .social-icon-3 svg,
+ .socialcontainer:hover .social-icon-4 svg {
+   opacity: 1;
+ }
+ .social-icon-2 {
+   transition-duration: 0.4s;
+   transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+   background: linear-gradient(
+     72.44deg,
+     #ff7a00 11.92%,
+     #ff0169 51.56%,
+     #d300c5 85.69%
+   );
+ }
+ .socialcontainer:hover .social-icon-2 {
+   transform: translateY(-70px);
+ }
+ .social-icon-3 {
+   transition-duration: 0.4s;
+   transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+   background: #003dc2;
+ }
+ 
+ .socialcontainer:hover .social-icon-3 {
+   transform: translateY(-70px);
+ }
+ .social-icon-4 {
+   transition-duration: 0.4s;
+   transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+ 
+   background: linear-gradient(
+     180deg,
+     rgba(129, 34, 144, 1) 0%,
+     rgba(77, 34, 124, 1) 91%
+   );
+ }
+ 
+ .socialcontainer:hover .social-icon-4 {
+   transform: translateY(-70px);
+ }
+ 
+
+ /* button do link "back" */
+
+
+ /* 12 */
+
+
+ .btn-12{
+  display: block;
+  position: relative;
+  right: 100px;
+  bottom: -5px;
+  border:none;
+  box-shadow: none;
+  line-height: 42px;
+  perspective: 230px;
+  margin: auto;
+}
+.btn-12 span {
+  background: rgb(5, 255, 67);
+background: linear-gradient(0deg, rgb(21, 255, 0) 0%, rgba(2,126,251,1) 100%);
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  border-radius: 5px;
+  margin:0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.btn-12 span:nth-child(1) {
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12 span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12:hover span:nth-child(1) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12:hover span:nth-child(2) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+ color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+
